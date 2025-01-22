@@ -1,0 +1,40 @@
+:root {
+    --color-lavender: #E6E6FA;
+    --color-improved-purple: #8A2BE2;
+    --color-slate-blue: #6A5ACD;
+    --color-indigo: #4B0082;
+    --color-dark: #4A4A4A;
+    --color-improved-indigo: #5A20CB;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg-lavender { background-color: var(--color-lavender); }
+.bg-improved-purple { background-color: var(--color-improved-purple); }
+.bg-slate-blue { background-color: var(--color-slate-blue); }
+.bg-indigo { background-color: var(--color-indigo); }
+.bg-improved-indigo { background-color: var(--color-improved-indigo); }
+
+.text-lavender { color: var(--color-lavender); }
+.text-improved-purple { color: var(--color-improved-purple); }
+.text-slate-blue { color: var(--color-slate-blue); }
+.text-indigo { color: var(--color-indigo); }
+.text-dark { color: var(--color-dark); }
+.text-improved-indigo { color: var(--color-improved-indigo); }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+header {
+    position: absolute;
+    top: 0;
+}
+
+input:focus, input:active {
+    border-color:color: var(--color-slate-blue); /* Replace this with the actual hex value of your button background color */
+    outline: none; /* Remove the default outline */
+}
